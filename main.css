@@ -1,0 +1,71 @@
+.pic-1 {
+    width: 100%;
+    border-radius: 20px;
+}
+.text {
+    position: relative;
+}
+.distance {
+    color: rgb(60, 58, 58);
+    font-weight: 300;
+    margin-top: -10px;
+}
+.date {
+    color: rgb(34, 34, 34);
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: -15px;
+}
+.price {
+    display: inline-block;
+}
+.time {
+    color:rgb(34, 34, 34);
+    display: inline-block;
+    font-weight: 400;
+    font-size: 15px;
+}
+.star {
+    width: 15px;
+}
+.rating-number {
+    display: inline-block;
+}
+.rating {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.heart {
+    width: 22px;
+    position: absolute;
+    top: 20px;
+    right: 17px;
+}
+.picture {
+    position: relative;
+
+}
+.container-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 22px;
+    column-gap: 22px;
+    padding: 30px 90px;
+}
+.show-map {
+    background-color: rgb(30, 27, 27);
+    border-style: none;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 50px;
+    position: fixed;
+    bottom: 50px;
+    right: 700px;
+    font-family: roboto,arial;
+    cursor: pointer;
+}
+.show-map:hover {
+    box-shadow: 1px 1px 1px rgb(150, 148, 148);
+    transform: .25s;
+}

@@ -1,0 +1,152 @@
+.header {
+    display: flex;
+    background-color: white;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(216, 216, 216);
+    padding: 8px 90px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 70px;
+    z-index: 1000;
+}
+.logo {
+    width: 100px;
+    left: 100px;
+    top: 8px;
+    cursor: pointer;
+}
+
+.middle-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    padding: 6px 15px;
+    border-radius: 50px;
+    box-shadow: 1 20 34 gray;
+    box-shadow: 0 2px 2px lightgray;
+    border-color:rgb(113, 113, 113) ;
+    font-family: roboto,arial;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.mid-btn {
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+}
+.any-week {
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+.add-guests {
+    color: rgb(113, 113, 113);
+}
+.search-bar {
+    background: #ff385c;
+    color: white;
+    padding: 10px;
+    border-radius: 100%;
+    margin-left: 2px;
+}
+.middle-section:hover {
+    box-shadow: 0 2px 2px rgba(124, 122, 122, .75);
+}
+.right-section {
+    display: flex;
+    align-items: center;
+    vertical-align: text-top;
+} 
+.home-button {
+    text-decoration: none;
+    color: black;
+    padding: 10px 10px;
+    border-radius: 50px;
+    font-family: roboto,arial;
+    font-weight: 500;
+    font-size: 15px;
+    cursor: pointer;
+}
+.home-button:hover {
+    background-color: rgb(242, 242, 242);
+}
+.location-button {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    
+}
+.location-div {
+    border: 1px solid lightgray;
+    border-radius: 50%;
+    background-color: white;
+    padding: 10px;
+    border-style: none;
+    cursor: pointer;
+}
+.location-div:hover {
+    background-color: rgb(242, 242, 242);
+}
+.account {
+   display: flex;
+   padding: 5px 10px;
+   align-items: center;
+   background-color: white;
+   border-radius: 30px;
+   border:1px solid lightgrey;
+   cursor: pointer;
+}
+.account:hover{
+    box-shadow: 2px 2px 5px rgb(178, 173, 173);
+    transition: .25s;
+}
+.menu {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+.header-sticky {
+    height: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    position: sticky;
+    right: 0;
+    left: 0;
+    top: 80px;
+    background-color: white;
+    z-index: 100;
+    height: 70px;
+}
+.header-sticky > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 5px 0;
+    cursor: pointer;
+}
+.header-sticky > div > img {
+    width: 20px;
+}
+.header-sticky > div > p {
+    font-size: 12px;
+    font-weight: 500;
+    color: rgb(113, 113, 113);
+    margin-bottom: 0
+}
+
+.header-sticky div:hover{
+ color: black;
+ border-bottom: 3px solid black;
+}
+
+
+
+
+
